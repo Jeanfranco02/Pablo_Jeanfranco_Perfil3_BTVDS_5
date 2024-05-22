@@ -23,25 +23,25 @@ const estudiantesData = [
     },
     {
         id: 4,
-        name: 'elegi',
-        descripcion: '20220106',
-        photo: require('../image/20181103_153346.jpg')
+        name: 'Pupusas',
+        descripcion: 'Las pupusas son tortillas gruesas de harina de arroz o maíz; las cuales son rellenas tradicionalmente de loroco, queso, frijoles refritos, chicharrón o ayote.',
+        photo: require('../image/pupusas.jpg')
     },
     {
         id: 5,
-        name: 'elegi',
-        descripcion: '20220777',
-        photo: require('../image/coito.jpeg')
+        name: 'Carne Asada',
+        descripcion: 'La carne asada es carne de res asada y cortada en rodajas, generalmente filete de falda, filete de falda o filete de falda, aunque también se puede usar filete de lomo.',
+        photo: require('../image/carnita.jpg')
     },
     {
         id: 6,
-        name: 'elegi',
-        descripcion: '20220666',
-        photo: require('../image/coito.jpeg')
+        name: 'Tacos',
+        descripcion: 'El taco es una preparación culinaria muy popular de México que consiste en una tortilla, generalmente de maíz, que comúnmente se enrolla para contener dentro diversos ingredientes y algún tipo de salsa y verdura.',
+        photo: require('../image/taquitos.jpg')
     },
 ];
 
-const Estudiantes = () => {
+const Comidas = () => {
     return (
         <ScrollView contentContainerStyle={styles.container}>
             {estudiantesData.map(student => (
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
         flexGrow: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        paddingVertical: 20,
+        paddingVertical: 60,
         backgroundColor: '#1f1f1f', // Color de fondo para la pantalla
     },
     card: {
@@ -96,4 +96,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default Estudiantes;
+export default Comidas;

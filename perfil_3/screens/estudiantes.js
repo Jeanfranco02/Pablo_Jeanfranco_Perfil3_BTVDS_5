@@ -11,16 +11,10 @@ const estudiantesData = [
     },
     {
         id: 2,
-        name: 'Pablo Sex',
+        name: 'Pablo',
         carnet: '20220777',
-        photo: require('../image/coito.jpeg')
-    },
-    {
-        id: 3,
-        name: 'Pablo Sex2',
-        carnet: '20220666',
-        photo: require('../image/coito.jpeg')
-    },
+        photo: require('../image/pablo.jpeg')
+    }
 ];
 
 const Estudiantes = () => {

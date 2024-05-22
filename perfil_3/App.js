@@ -8,7 +8,7 @@ import { Ionicons } from '@expo/vector-icons';
 const Tab = createBottomTabNavigator();
 const screenOptions = {
   tabBarShowLabel: true,
-  headerShown: true,
+  headerShown: false,
   tabBarStyle: {
     position: "absolute",
     bottom: 0,
@@ -19,6 +19,8 @@ const screenOptions = {
     background: "#1b1b1b"
   }
 }
+
+
 export default function App() {
   return (
     <NavigationContainer>
